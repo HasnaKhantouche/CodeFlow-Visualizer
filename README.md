@@ -145,8 +145,8 @@ MIT License
 ## 🙏 Credits
 
 - [CodeLlama-7B-Instruct](https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf)
-- [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- [ControlNet (Scribble)](https://huggingface.co/lllyasviel/ControlNet)
-- [Blueprint / Technical Drawing LoRA](https://civitai.com/models/36659)
+- [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.safetensors)
+- [ControlNet (Scribble)](https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_scribble.pth)
+- [Blueprint / Technical Drawing LoRA](https://civitai.com/models/637539/blueprint-technical-drawing)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [PyGraphviz](https://pygraphviz.github.io/)
