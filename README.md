@@ -83,7 +83,7 @@ codeflow-visualizer/
 
 ### 1. **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/codeflow-visualizer.git
+git clone https://github.com/HasnaKhantouche/codeflow-visualizer.git
 cd codeflow-visualizer
 ```
 
