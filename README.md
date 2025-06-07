@@ -46,7 +46,7 @@ codeflow-visualizer/
     - The model returns a structured, natural language flowchart description (e.g., `Start → Step1 → [Condition] → Step2`).
 
 2. **Sketch Generation**
-    - `sketch_generator.py` parses the flowchart description and uses [PyGraphviz](https://pygraphviz.github.io/) to render a fast, clean sketch (`.png`).
+    - `sketch_generator.py` parses the flowchart description and uses [Graphviz](https://pygraphviz.github.io/) to render a fast, clean sketch (`.png`).
 
 3. **Diagram Generation**
     - `comfy_client.py` sends the sketch to a [ComfyUI](https://github.com/comfyanonymous/ComfyUI) workflow.
@@ -149,4 +149,4 @@ MIT License
 - [ControlNet (Scribble)](https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_scribble.pth)
 - [Blueprint / Technical Drawing LoRA](https://civitai.com/models/637539/blueprint-technical-drawing)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-- [PyGraphviz](https://pygraphviz.github.io/)
+- [Graphviz](https://pygraphviz.github.io/)
