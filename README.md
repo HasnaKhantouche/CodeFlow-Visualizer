@@ -50,7 +50,7 @@ codeflow-visualizer/
 
 3. **Diagram Generation**
     - `comfy_client.py` sends the sketch to a [ComfyUI](https://github.com/comfyanonymous/ComfyUI) workflow.
-    - Uses [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5), [ControlNet (Scribble)](https://huggingface.co/lllyasviel/ControlNet), and [Blueprint / Technical Drawing LoRA](https://civitai.com/models/36659) for stylization.
+    - Uses [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.safetensors), [ControlNet (Scribble)](https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_scribble.pth), and [Blueprint / Technical Drawing LoRA](https://civitai.com/models/637539/blueprint-technical-drawing) for stylization.
 
 4. **Orchestration**
     - `orchestrator.py` ties all steps together with a single function: `visualize_code(code: str)`.
@@ -89,8 +89,8 @@ cd codeflow-visualizer
 
 ### 2. **Download Models**
 - Place the following in `models/`:
-    - ControlNet: `control_sd15_scribble.pth` ([Hugging Face](https://huggingface.co/lllyasviel/ControlNet))
-    - LoRA: `Blueprint / Technical Drawing.safetensors` ([CivitAI](https://civitai.com/models/36659))
+    - ControlNet: `control_sd15_scribble.pth` ([Hugging Face](https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_scribble.pth))
+    - LoRA: `Blueprint / Technical Drawing.safetensors` ([CivitAI](https://civitai.com/models/637539/blueprint-technical-drawing))
 
 ### 3. **Build and Run with Docker**
 ```sh
