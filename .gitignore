@@ -1,0 +1,5 @@
+venv/
+.env
+models/controlnet/control_sd15_scribble.pth
+models/lora/Blueprint__Technical_Drawing.safetensors
+models/stable-diffusion/v1-5-pruned(1).safetensors

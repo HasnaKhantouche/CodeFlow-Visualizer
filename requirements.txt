@@ -1,0 +1,5 @@
+graphviz
+gradio
+requests
+pillow
+python-dotenv
