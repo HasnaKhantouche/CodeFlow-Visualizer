@@ -1,7 +1,7 @@
 from graphviz import Digraph
 import re
 from typing import Optional, List, Tuple
-
+ 
 def parse_flowchart_description(description: str) -> List[Tuple[str, str, str]]:
     lines = [line.rstrip() for line in description.strip().split('\n') if line.strip()]
     edges = []
