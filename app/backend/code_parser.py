@@ -1,5 +1,5 @@
 import requests
-
+ 
 def parse_code_to_flowchart(code: str, model: str = "mistral") -> str:
     """
     Sends code to a local Ollama model and returns the full flowchart description.
